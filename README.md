@@ -38,8 +38,9 @@ So I regard this as "aggresive" formatter because it not only tell me where is t
 In fact, the `isort` hook also does similar thing, just that it sorts Python imports in some pre-defined order.
 I think this is a very good feature and make the code adhere to a certain quality.
 
-However, when I initially add the frontend to my project, I struggled to find a good code formatter (where I don't even know I want a
-code formatter at that time). With the time constraint from my work, I hastily slaps the `ESLint` into my pre commit hooks and
+However, when I initially add the frontend to my project, I struggled to find a good "aggresive" code formatter
+(where I don't even know I want a code formatter at that time).
+With the time constraint from my work, I hastily slaps the `ESLint` into my pre commit hooks and
 called it a day.
 
 While sometimes `ESLint` works, it didn't even once modify my code, but just tell me what I can do to make my code better
@@ -78,5 +79,5 @@ function main() {
 export default main;
 ```
 
-Which is exactly what I wanted!
+Which is exactly as aggresive as I wanted!
 I will then `git add` and `git commit` again, it passed, then continue my work.

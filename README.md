@@ -60,12 +60,10 @@ like so:
 I chosed `v3.1.0` because it is the last stable release before all of the `v4 alpha` builds, not to mention
 it is good enough for my work.
 
-Now I have `index.js`, and when I purposefully make it looks bad:
+Now I have `index.js`, and when I purposefully make it looks bad: (I have to disable `js` formatting in this codeblock to make my point)
 
-```js
-function main() {
-  console.log("Hello World!");
-}
+```
+function main() {console.log("Hello World!");}
 
 export default main;
 ```
